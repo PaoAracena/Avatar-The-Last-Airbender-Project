@@ -5,7 +5,7 @@ body{
     background-size: 1300px;
 }
 h1{
-    border: solid blue;
+    text-align: center;
 }
 a{
     font-size: larger;
