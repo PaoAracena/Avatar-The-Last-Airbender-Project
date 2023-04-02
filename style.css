@@ -14,3 +14,15 @@ a{
     border: solid blue;
     text-align: center;
 }
+.para {
+    font-weight: bold;
+    display: grid;
+
+}
+
+.container{
+    display: grid;
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+}

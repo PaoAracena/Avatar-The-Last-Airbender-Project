@@ -1,5 +1,42 @@
 body {
     background-image: url(https://media.giphy.com/media/jyanYxvGz3MOc/giphy.gif);
     background-repeat: no-repeat;
-    background-size: 1300px;
+    background-size: 1400px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    "p main "
+}
+
+.character-card {
+    background-color: rgb(186, 182, 163);
+    border-radius: 15px;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid tan;
+
+}
+.dropdown {
+    display: grid;
+    text-align: center;
+    
+}
+.paragraph{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: larger;
+}
+img{
+    border-radius: 15px;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+}
+header {
+    font-family: 'Crimson Text', serif;;
+    font-weight: bold;
+    color: white;
 }
