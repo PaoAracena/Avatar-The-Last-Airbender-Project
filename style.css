@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(168, 209, 245);
+    background-image: url(https://media.giphy.com/media/5cnEDRXsyAss8/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+h1{
+    border: solid blue;
+}
+a{
+    font-size: larger;
+    display: grid;
+    background-color: aliceblue;
+    border: solid blue;
+    text-align: center;
+}
