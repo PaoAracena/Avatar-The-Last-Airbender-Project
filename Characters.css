@@ -1,3 +1,39 @@
 body {
     background-color: rgb(72, 174, 174);
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.character-card {
+    background-color: rgb(186, 182, 163);
+    border-radius: 15px;
+    width: 500px;
+    height: fit-content;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    border: solid tan;
+  
+}
+img{
+
+    border-radius: 15px;
+    width: 500px;
+    height: fit-content;
+    /* display: flex; */
+}
+p{
+    font-size: large;
+}
+.dropdown {
+    width: 600px;
+    /* display: grid; */
+    text-align: center;
+    font-size: large;
+    
+}
+h1{
+    font-family: 'Crimson Text', serif;
 }
