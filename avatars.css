@@ -5,7 +5,7 @@ body {
     display: grid;
     grid-template-columns: auto auto ;
     grid-template-rows: auto auto ;
-    "p main "
+    " main p "
 }
 
 .character-card {
@@ -39,4 +39,5 @@ header {
     font-family: 'Crimson Text', serif;;
     font-weight: bold;
     color: white;
+    background-color: rgb(103, 101, 98);
 }

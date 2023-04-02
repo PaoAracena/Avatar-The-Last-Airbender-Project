@@ -1,9 +1,17 @@
 body {
     background-color: rgb(72, 174, 174);
     align-items: center;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     display: grid;
+    background-image: url(https://imgix.bustle.com/scary-mommy/2021/08/07/avatar-last-airbender.jpeg?w=1200&h=630&fit=crop&crop=faces&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    "h1 h1"
+    "p main "
+    
 }
 
 .character-card {
@@ -11,29 +19,36 @@ body {
     border-radius: 15px;
     width: 500px;
     height: fit-content;
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
     border: solid tan;
-  
 }
 img{
 
     border-radius: 15px;
     width: 500px;
     height: fit-content;
-    /* display: flex; */
 }
-p{
+/* p{
     font-size: large;
-}
+    align-items: left;
+} */
 .dropdown {
     width: 600px;
-    /* display: grid; */
     text-align: center;
     font-size: large;
     
 }
 h1{
     font-family: 'Crimson Text', serif;
+    color: aliceblue;
+    /* justify-content: center;
+    text-align: center; */
+}
+.par {
+    color: aliceblue;
+    width: 500px;
+    align-items: right;
+    font-size: larger;
+    font-weight: bolder;
 }
